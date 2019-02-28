@@ -1,0 +1,23 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+http://localhost:8000/shopee/test?a=12345&b=testa,3,4,5,5,5,5,4,5,0.000%,3.69004,1.56,0.51
+HTTP Request,100,3,3,5,5,6,2,6,0.000%,99.00990,41.77,13.63
+http://localhost:8000/shopee/test?a=12346&b=testb,3,3,3,5,5,5,3,5,0.000%,3.69004,1.56,0.51
+http://localhost:8000/shopee/test?a=12347&b=testc,3,2,3,3,3,3,2,3,0.000%,3.69458,1.56,0.51
+http://localhost:8000/shopee/test?a=12348&b=testd,3,4,5,5,5,5,4,5,0.000%,3.69458,1.56,0.51
+http://localhost:8000/shopee/test?a=12349&b=teste,3,4,4,5,5,5,4,5,0.000%,3.69458,1.56,0.51
+http://localhost:8000/shopee/test?a=12350&b=testf,3,3,3,4,4,4,3,4,0.000%,3.71747,1.57,0.52
+http://localhost:8000/shopee/test?a=12351&b=testg,3,3,3,4,4,4,3,4,0.000%,3.69458,1.56,0.51
+http://localhost:8000/shopee/test?a=12352&b=testh,3,4,4,5,5,5,3,5,0.000%,3.69004,1.56,0.51
+http://localhost:8000/shopee/test?a=12353&b=testi,3,3,3,5,5,5,3,5,0.000%,3.72671,1.58,0.52
+http://localhost:8000/shopee/test?a=12354&b=testj,3,3,3,5,5,5,2,5,0.000%,3.71747,1.57,0.52
+http://localhost:8000/shopee/test?a=12355&b=testk,2,4,4,5,5,5,4,5,0.000%,4.86618,2.06,0.67
+http://localhost:8000/shopee/test?a=12356&b=testl,2,4,4,5,5,5,4,5,0.000%,4.86618,2.06,0.67
+http://localhost:8000/shopee/test?a=12357&b=testm,2,4,4,4,4,4,4,4,0.000%,4.88998,2.07,0.68
+http://localhost:8000/shopee/test?a=12358&b=testn,2,4,3,5,5,5,3,5,0.000%,4.97512,2.10,0.69
+http://localhost:8000/shopee/test?a=12359&b=testo,2,5,5,5,5,5,5,5,0.000%,4.87805,2.06,0.68
+http://localhost:8000/shopee/test?a=12360&b=testp,2,3,3,3,3,3,3,3,0.000%,4.92611,2.08,0.68
+http://localhost:8000/shopee/test?a=12361&b=testq,2,4,3,5,5,5,3,5,0.000%,4.88998,2.07,0.68
+http://localhost:8000/shopee/test?a=12362&b=testr,2,4,4,5,5,5,4,5,0.000%,4.88998,2.07,0.68
+http://localhost:8000/shopee/test?a=12363&b=tests,2,4,4,5,5,5,4,5,0.000%,4.90196,2.07,0.68
+http://localhost:8000/shopee/test?a=12364&b=testt,2,4,4,4,4,4,4,4,0.000%,4.88998,2.07,0.68
+TOTAL,150,3,3,5,5,6,2,6,0.000%,147.49263,62.27,20.36
